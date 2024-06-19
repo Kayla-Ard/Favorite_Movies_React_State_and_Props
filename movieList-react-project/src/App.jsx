@@ -1,14 +1,12 @@
-import { useState } from 'react';
+
 import MoviesList from './Components/MoviesList/MoviesList';
+import "./index.css"
 
-
-import React from 'react';
-import MoviesList from './MoviesList';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Movies List</h1>
+    <div className="appContainer">
+      <h1 className="header">Must Watch Movie List</h1>
       <MoviesList />
     </div>
   );
